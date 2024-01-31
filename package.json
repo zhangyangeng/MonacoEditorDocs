@@ -1,0 +1,23 @@
+{
+  "name": "monacoeditor",
+  "version": "1.0.0",
+  "description": "MicroSoft monaco-editor Chinese docs.",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/zhangyangeng/MonacoEditorDocs.git"
+  },
+  "author": "zhangyangeng",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhangyangeng/MonacoEditorDocs/issues"
+  },
+  "homepage": "https://github.com/zhangyangeng/MonacoEditorDocs#readme",
+  "devDependencies": {
+    "vuepress": "^1.9.10"
+  }
+}
