@@ -23,17 +23,17 @@ export default defineConfig({
                 label: '简体中文',
                 selectText: '选择语言',
                 ariaLabel: '选择语言',
-                nav: NavItems4ZH,
                 lastUpdated: '上次更新',
                 editLinkText: '在 GitHub 上编辑此页',
+                nav: NavItems4ZH,
             },
             '/en/': {
                 label: 'English',
                 selectText: 'Languages',
                 ariaLabel: 'Select language',
-                nav: NavItems4ZH,
                 lastUpdated: 'Last updated',
                 editLinkText: 'Edit this page on GitHub',
+                nav: NavItems4ZH,
             }
         },
         // 仓库

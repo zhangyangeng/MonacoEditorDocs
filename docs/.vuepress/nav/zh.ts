@@ -9,4 +9,8 @@ export const NavItems4ZH: NavItem[] = [
         text: 'API',
         link: '/api/'
     },
+    {
+        text: '接口',
+        link: '/interface/',
+    }
 ];
