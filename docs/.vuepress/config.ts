@@ -1,5 +1,6 @@
 import { defineConfig } from "vuepress/config";
 import { NavItems4ZH } from './nav/index';
+import { SidebarItems4ZH } from "./sidebar/index";
 
 export default defineConfig({
     title: 'Monaco Editor Docs',
@@ -26,6 +27,7 @@ export default defineConfig({
                 lastUpdated: '上次更新',
                 editLinkText: '在 GitHub 上编辑此页',
                 nav: NavItems4ZH,
+                sidebar: SidebarItems4ZH
             },
             '/en/': {
                 label: 'English',
@@ -34,6 +36,7 @@ export default defineConfig({
                 lastUpdated: 'Last updated',
                 editLinkText: 'Edit this page on GitHub',
                 nav: NavItems4ZH,
+                sidebar: SidebarItems4ZH
             }
         },
         // 仓库
