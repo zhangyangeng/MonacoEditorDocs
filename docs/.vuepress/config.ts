@@ -41,6 +41,8 @@ export default defineConfig({
         },
         // 仓库
         repo: 'zhangyangeng/MonacoEditorDocs',
+        docsDir: 'docs',
+        editLinks: true,
         smoothScroll: true,
     },
     // 额外监听的文件变化

@@ -1,6 +1,20 @@
-import { SidebarConfig4Multiple, SidebarConfigArray } from "vuepress/config";
+import { SidebarConfig4Multiple } from "vuepress/config";
 
-export const SidebarItems4ZH: SidebarConfigArray | SidebarConfig4Multiple = [
-    '/api/',
-    '/interface/'
-];
+export const SidebarItems4ZH: SidebarConfig4Multiple = {
+    '/api/': ['', 'Editor', 'Language'],
+    '/interface/': ['', 'Editor', 'Language']
+
+    // 分组样例
+    // '/interface/': [
+    //     {
+    //         title: 'Editor',
+    //         collapsable: false,
+    //         children: ['Editor'],
+    //     },
+    //     {
+    //         title: 'Language',
+    //         collapsable: false,
+    //         children: ['Language']
+    //     }
+    // ],
+};
