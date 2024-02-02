@@ -1,6 +1,7 @@
 import { SidebarConfig4Multiple } from "vuepress/config";
 
 export const SidebarItems4ZH: SidebarConfig4Multiple = {
+    '/guide/': ['', 'QuicklyStarted', 'DepthUsage'],
     '/api/': ['', 'Editor', 'Language'],
     '/interface/': ['', 'Editor', 'Language']
 
