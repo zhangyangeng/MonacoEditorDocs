@@ -2,7 +2,7 @@ import { SidebarConfig4Multiple } from "vuepress/config";
 
 export const SidebarItems4ZH: SidebarConfig4Multiple = {
     '/guide/': ['', 'QuicklyStarted', 'DepthUsage'],
-    '/api/': ['', 'Editor', 'Language'],
+    '/api/': ['', 'Editor', 'EditorModel', 'Language'],
     '/interface/': ['', 'Editor', 'Language']
 
     // 分组样例
