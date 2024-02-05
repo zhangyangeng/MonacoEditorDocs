@@ -106,7 +106,7 @@ setMonarchTokensProvider(languageId: string, languageDef: IMonarchLanguage | The
 
 **参数**
 
-|参数名|类型|默认值|描述|
+|参数名|类型|选择|描述|
 |:--:|:--:|:--:|:--:|
 |||||
 
