@@ -3,8 +3,8 @@ import { NavItems4ZH } from './nav/index';
 import { SidebarItems4ZH } from "./sidebar/index";
 
 export default defineConfig({
+    base: '/MonacoEditorDocs/',
     title: 'Monaco Editor Docs',
-    dest: '../../dist',
     locales: {
         '/': {
             lang: 'zh-CN',
