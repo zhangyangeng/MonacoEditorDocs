@@ -10,7 +10,7 @@ sidebarDepth: 2
 
 ## 版本
 
-本文档仅基于编写时的最新版本 [v0.45.0](https://www.npmjs.com/package/monaco-editor/v/0.45.0)为基准，当当前版本补充完成时即停止更新。后续若官方有更新时可参考该文档进行查看，目前并未有多版本整理的计划。
+本文档仅基于编写时的最新版本 [v0.45.0][]为基准，当当前版本补充完成时即停止更新。后续若官方有更新时可参考该文档进行查看，目前并未有多版本整理的计划。
 
 ## 标识
 
@@ -24,7 +24,7 @@ sidebarDepth: 2
 虽然 Monaco 可以很好的驱动 VSCode，但仍建议您在使用 Monaco 之前详细了解以下概念定义，才能更有效的使用 Monaco
 ::: 
 
-本部分内容是对 [官方描述](https://github.com/microsoft/monaco-editor?tab=readme-ov-file#concepts) 进行了翻译
+本部分内容是对 [官方描述][] 进行了翻译
 
 ### 模型（Models）
 
@@ -49,7 +49,7 @@ Monaco 的核心就是模型了，每个模型都是唯一的，模型可以代�
 
 注入器可以为编辑器提供智能编辑功能，如：鼠标悬浮时的提示信息，代码自动补全，代码格式校验等
 
-注入器和**语言服务通信协议**（[Language Server Protocol](https://microsoft.github.io/language-server-protocol/)）不同，但通常都会映射到语言服务通信协议上
+注入器和**语言服务通信协议**（[Language Server Protocol][]）不同，但通常都会映射到语言服务通信协议上
 
 注入器通常是运行在**模型**上的，同时某些智能功能取决于文件所对应的 URI 的。如：TypeScript 用于解析导入，JSON IntelliSense 用于确定模型应该应用哪个 JSON 架构。因此，选择对应的模型 URI 是非常重要的
 
@@ -70,17 +70,27 @@ Monarch 规定了一种编程语言所需要的 **关键字（keyword）、变�
 - **分词器（tokenizer）**：可描述为一组正则表达式的分词规则，可根据对应的正则表达式来识别不同的内容，如：关键词、括号、注释块等内容并进行相应的高亮
 
 ::: tip 提示
-Monarch 相关内容可前往深入用法中的 [Monarch](./DepthUsage.md#Monarch) 进行详细查看
+Monarch 相关内容可前往深入用法中的 [Monarch][] 进行详细查看
 :::
 
 ## 参考
 
 本文编写时主要参考如下几个网站与内容，同时也感谢各位的付出
-- [Monaco Editor 官网](https://microsoft.github.io/monaco-editor/)
-- [Monaco Editor 源码](https://github.com/microsoft/monaco-editor)
-- [Monaco Editor issue](https://github.com/microsoft/monaco-editor/issues)
-- [Monaco editor 学习文档](http://aydk.site/)
+- [Monaco Editor 官网][]
+- [Monaco Editor 源码][]
+- [Monaco Editor issue][]
+- [Monaco editor 学习文档][]
 
 ## 关于
 
-本文档目前是基于 [VuePress v1.x](https://vuepress.vuejs.org/zh/) 进行生成的，如果您在查阅中发现有任何问题，可以点击对应页面底部的 `在 GitHub 上编辑此页` 进行修改并发送 PR，感谢您对文档翻译的贡献
+本文档目前是基于 [VuePress v1.x][] 进行生成的，如果您在查阅中发现有任何问题，可以点击对应页面底部的 `在 GitHub 上编辑此页` 进行修改并发送 PR，感谢您对文档翻译的贡献
+
+[v0.45.0]: https://www.npmjs.com/package/monaco-editor/v/0.45.0
+[官方描述]: https://github.com/microsoft/monaco-editor?tab=readme-ov-file#concepts
+[Language Server Protocol]: https://microsoft.github.io/language-server-protocol/
+[Monaco Editor 官网]: https://microsoft.github.io/monaco-editor/
+[Monaco Editor 源码]: https://github.com/microsoft/monaco-editor
+[Monaco Editor issue]: https://github.com/microsoft/monaco-editor/issues
+[Monaco editor 学习文档]: http://aydk.site/
+[Monarch]: ./DepthUsage.md#Monarch
+[VuePress v1.x]: https://vuepress.vuejs.org/zh/

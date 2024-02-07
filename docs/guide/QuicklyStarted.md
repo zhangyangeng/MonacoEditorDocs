@@ -20,14 +20,14 @@ import * as monaco from 'monaco-editor';
 
 **ESM**
 
-> 参见 [ESM官方引入方式](https://github.com/microsoft/monaco-editor/blob/main/docs/integrate-esm.md)
+> 参见 [ESM官方引入方式][]
 
 **AMD**
 
-> 参见 [AMD官方引入方式](https://github.com/microsoft/monaco-editor/blob/main/docs/integrate-amd.md)
+> 参见 [AMD官方引入方式][]
 
 ::: danger 注意
-若不引入 `Web Wroker` ，您可能会遇到如下报错（详见 [#2122](https://github.com/microsoft/monaco-editor/issues/2122)）：
+若不引入 `Web Wroker` ，您可能会遇到如下报错（详见 [#2122][]）：
 
 Error: Unexpected usage
 at EditorSimpleWorker.loadForeignModule (editorSimpleWorker.js?ccf6:540)
@@ -89,7 +89,13 @@ const monacoEditor = monaco.editor.create(monacoGrph, {
 ```
 
 ::: tip 提示
-编辑器相关 API 或配置项请前往 [API](/api/README.md) 页面查看
+编辑器相关 API 或配置项请前往 [API][] 页面查看
 :::
 
-启动服务，将看到一个简单的编辑器就正常加载了。到这里，你已经快速入门 `Monaco` 编辑器了，接下来可以看看更 [深入](./DepthUsage.md) 的用法了
+启动服务，将看到一个简单的编辑器就正常加载了。到这里，你已经快速入门 `Monaco` 编辑器了，接下来可以看看更 [深入][] 的用法了
+
+[API]: /api/README.md
+[AMD官方引入方式]: https://github.com/microsoft/monaco-editor/blob/main/docs/integrate-amd.md
+[ESM官方引入方式]: https://github.com/microsoft/monaco-editor/blob/main/docs/integrate-esm.md
+[#2122]: https://github.com/microsoft/monaco-editor/issues/2122
+[深入]: ./DepthUsage.md

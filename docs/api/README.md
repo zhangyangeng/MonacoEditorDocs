@@ -15,5 +15,7 @@
 - **来源**：该 API 对应编译后类型文件所在位置（此部分由官方文档所描述）
 
 ::: warning 注意
-本文的绝大部分内容都是通过翻译[官方文档](https://microsoft.github.io/monaco-editor/docs.html)得来的，小部分内容是根据本人实际使用进行描述，如有出入，望指出
+本文的绝大部分内容都是通过翻译 [官方文档][] 得来的，小部分内容是根据本人实际使用进行描述，如有出入，望指出
 :::
+
+[官方文档]: https://microsoft.github.io/monaco-editor/docs.html
