@@ -47,4 +47,6 @@ export default defineConfig({
     },
     // 额外监听的文件变化
     extraWatchFiles: ['.vuepress/nav/**', '.vuepress/sidebar/**'],
+    // 插件
+    plugins: ['@vuepress/plugin-back-to-top'],
 });
