@@ -1,19 +1,14 @@
----
-sidebarDepth: 2
----
-
-# 深入用法
-
-## Monarch
+# Monarch
 
 > **Monarch** 是一个使用 `JSON` 来创建声明性的语法高亮器，同时也是一个通用的解决方案。该方案可以指定具有复杂状态转换、动态大括号匹配、自动完成、嵌入其他语言等高亮行为，这些都将在以下标注为 **<font color="red">高级</font>** 的部分提到，但建议初学者学习时可以跳过相关描述。
 
 如果您尝试一些高级用法，如下一小节的[自定义语言][]，那么 Monarch 相关内容建议您仔细阅读，这对您后续的使用将有极大的帮助
 
-**注**：本部分参考自官方文档的 [Monarch][]，若翻译或描述不准确都可前往官方文档进行查看
+::: tip 提示
+本部分参考自官方文档的 [Monarch][]，若翻译或描述不准确都可前往官方文档进行查看
+:::
 
-
-### 创建语言定义
+## 创建语言定义
 
 语言定义的数据结构就是一个 JSON 值，该值内部可以描述语言的各种属性，目前可识别的属性如下：
 
@@ -37,12 +32,8 @@ sidebarDepth: 2
 
 更多属性请前往 [IMonarchLanguage][] 查看
 
-### 创建分词器
+## 创建分词器
 
-
-## 自定义语言
-
-
-[自定义语言]: ./DepthUsage.md#自定义语言
+[自定义语言]: ./CustomLanguage.md#自定义语言
 [IMonarchLanguage]: /interface/Language.md#IMonarchLanguage
 [Monarch]: https://microsoft.github.io/monaco-editor/monarch.html

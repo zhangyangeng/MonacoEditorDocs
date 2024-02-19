@@ -1,21 +1,12 @@
 import { SidebarConfig4Multiple } from "vuepress/config";
 
 export const SidebarItems4ZH: SidebarConfig4Multiple = {
-    '/guide/': ['', 'QuicklyStarted', 'DepthUsage'],
+    '/guide/': ['', 'QuicklyStarted', {
+        title: '高级用法',
+        path: '',
+        collapsable: true,
+        children: ['PartialImport', 'Monarch', 'CustomLanguage']
+    }],
     '/api/': ['', 'Editor', 'EditorModel', 'Language'],
     '/interface/': ['', 'Editor', 'Language']
-
-    // 分组样例
-    // '/interface/': [
-    //     {
-    //         title: 'Editor',
-    //         collapsable: false,
-    //         children: ['Editor'],
-    //     },
-    //     {
-    //         title: 'Language',
-    //         collapsable: false,
-    //         children: ['Language']
-    //     }
-    // ],
 };
