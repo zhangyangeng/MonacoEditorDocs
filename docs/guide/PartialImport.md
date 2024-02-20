@@ -18,6 +18,10 @@ import * as monaco from 'monaco-editor'
 
 ## 使用 Vite 打包
 
+Vite 端虽然也有 [vite-plugin-monaco-editor][] 插件，但是该插件并不像官方提供的 WebPack 插件一样可以通过配置指定需要开启的语言和特性，且该插件已有将近两年未更新，因此暂时放弃
+
+Rollup 端虽然也有 [rollup-plugin-monaco-editor][] 插件，同时该插件也可以同官方一样配置指定需要开启的语言和特性，但该插件仅支持 `monaco v0.34.0` 及以下的版本，故放弃
+
 ### 导入核心功能
 
 在官方文档中 [webpack-plugin][] 处有提到如果只需要部分功能和语言的子集可以这样导入：
@@ -64,4 +68,6 @@ import 'monaco-editor/esm/vs/editor/contrib/folding/browser/folding';
 [构建产物图]: /statics_language.png
 [webpack-plugin]: https://github.com/microsoft/monaco-editor/tree/main/webpack-plugin
 [Monaco Editor Webpack Loader Plugin]: https://github.com/microsoft/monaco-editor/tree/main/webpack-plugin
+[vite-plugin-monaco-editor]: https://github.com/vdesjs/vite-plugin-monaco-editor
+[rollup-plugin-monaco-editor]: https://github.com/chengcyber/rollup-plugin-monaco-editor
 [@GeorgeWhite]: https://juejin.cn/post/7133041161618325512#heading-0

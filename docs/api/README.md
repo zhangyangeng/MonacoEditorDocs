@@ -1,10 +1,9 @@
 # 介绍
 
-该部分主要介绍使用 Monaco 编辑器时使用到的内置API，主要包含以下3个部分：
-- Editor（编辑器相关）
-- Editor Model（编辑器模型相关）
-- Language（语言相关）
-- Worker（Web Worker相关）
+该部分主要介绍使用 Monaco 编辑器时使用到的内置API，主要包含以下3个**命名空间**，每个命名空间中按不同使用场景进行区分：
+- Editor（编辑器）
+- Language（语言）
+- Worker（Web Worker）
 
 在每个部分中都针对具体的API进行了详细的描述，具体包含：
 - **描述**：该 API 主要功能及描述

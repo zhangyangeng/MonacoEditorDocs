@@ -7,6 +7,14 @@ export const SidebarItems4ZH: SidebarConfig4Multiple = {
         collapsable: true,
         children: ['PartialImport', 'Monarch', 'CustomLanguage']
     }],
-    '/api/': ['', 'Editor', 'EditorModel', 'Language'],
+    '/api/': ['',
+        {
+            title: 'Editor',
+            path: '',
+            collapsable: true,
+            children: ['Editor', 'CodeEditor', 'TextModel'],
+        },
+        'Language'
+    ],
     '/interface/': ['', 'Editor', 'Language']
 };
