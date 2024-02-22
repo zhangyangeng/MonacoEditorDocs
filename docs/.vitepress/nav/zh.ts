@@ -1,6 +1,6 @@
-import { NavItem } from 'vuepress/config'
+import { DefaultTheme } from "vitepress";
 
-export const NavItems4ZH: NavItem[] = [
+export const NavItems4ZH: DefaultTheme.NavItem[] = [
     {
         text: '指南',
         link: '/guide/'
