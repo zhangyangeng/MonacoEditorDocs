@@ -5,6 +5,7 @@ import { SidebarItems4ZH } from "./sidebar/index";
 export default defineConfig({
     base: '/MonacoEditorDocs/',
     title: 'Monaco Editor Docs',
+    ignoreDeadLinks: true,
     // i18n
     locales: {
         root: {
