@@ -36,7 +36,7 @@ import * as monaco from 'monaco-editor';
 首先我们需要了解 Monaco 中携带了哪些特性及语言，可以去 `node_modules\monaco-editor\esm\metadata.js` 路径下的该文件查看对应特性及语言，以下是个人理解对应字段代表的功能特性：
 ::: details 功能特性详情
 |          label        |       description     |
-|:--:|:--:|:--:|
+|:--:|:--:|
 |   accessibilityHelp   |                       |   
 :::
 

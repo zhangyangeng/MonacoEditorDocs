@@ -3,17 +3,22 @@ import { DefaultTheme } from "vitepress";
 export const SidebarItems4ZH: DefaultTheme.Sidebar = {
     '/guide/': [
         {
-            text: '介绍',
-            link: '/guide/',
+            text: '基础用法',
+            items: [
+                { text: '介绍', link: '/guide/' },
+                { text: '快速上手', link: '/guide/QuicklyStarted' },
+            ]
         },
         {
-            text: '快速上手',
-            link: '/guide/QuicklyStarted'
+            text: '打包优化',
+            items: [
+                { text: '部分导入', link: '/guide/PartialImport' },
+                { text: '去除无用语言', link: '/guide/DeleteUselessLanguage'}
+            ]
         },
         {
             text: '高级用法',
             items: [
-                { text: '部分导入', link: '/guide/PartialImport' },
                 { text: 'Monarch', link: '/guide/Monarch' },
                 { text: '自定义语言', link: '/guide/CustomLanguage' },
             ]
