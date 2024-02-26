@@ -10,19 +10,19 @@ export const SidebarItems4ZH: DefaultTheme.Sidebar = {
             ]
         },
         {
+            text: '高级用法',
+            items: [
+                { text: 'Monarch', link: '/guide/Monarch' },
+                { text: '自定义语言', link: '/guide/CustomLanguage' },
+            ]
+        },
+        {
             text: '打包优化',
             items: [
                 { text: '部分导入', link: '/guide/PartialImport' },
                 { text: '去除无用语言', link: '/guide/DeleteUselessLanguage'}
             ]
         },
-        {
-            text: '高级用法',
-            items: [
-                { text: 'Monarch', link: '/guide/Monarch' },
-                { text: '自定义语言', link: '/guide/CustomLanguage' },
-            ]
-        }
     ],
     '/api/': [
         {
