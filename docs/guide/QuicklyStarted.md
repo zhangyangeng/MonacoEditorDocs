@@ -94,8 +94,8 @@ const monacoEditor = monaco.editor.create(monacoGrph, {
 
 启动服务，将看到一个简单的编辑器就正常加载了。到这里，你已经快速入门 `Monaco` 编辑器了，接下来可以看看更 [高级][] 的用法了
 
-[API]: /api/README.md
+[API]: /api/
 [AMD官方引入方式]: https://github.com/microsoft/monaco-editor/blob/main/docs/integrate-amd.md
 [ESM官方引入方式]: https://github.com/microsoft/monaco-editor/blob/main/docs/integrate-esm.md
 [#2122]: https://github.com/microsoft/monaco-editor/issues/2122
-[高级]: ./PartialImport.md
+[高级]: /guide/Monarch

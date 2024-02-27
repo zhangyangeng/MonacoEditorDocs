@@ -83,7 +83,7 @@ Monarch 相关内容可前往深入用法中的 [Monarch][] 进行详细查看
 
 ## 关于
 
-本文档目前是基于 [VuePress v1.x][] 进行生成的，如果您在查阅中发现有任何问题，可以点击对应页面底部的 `在 GitHub 上编辑此页` 进行修改并发送 PR，感谢您对文档翻译的贡献
+本文档目前是基于 [VitePress v1.x][] 进行生成的，如果您在查阅中发现有任何问题，可以点击对应页面底部的 `在 GitHub 上编辑此页` 进行修改并发送 PR，感谢您对文档翻译的贡献
 
 [v0.45.0]: https://www.npmjs.com/package/monaco-editor/v/0.45.0
 [官方描述]: https://github.com/microsoft/monaco-editor?tab=readme-ov-file#concepts
@@ -92,5 +92,5 @@ Monarch 相关内容可前往深入用法中的 [Monarch][] 进行详细查看
 [Monaco Editor 源码]: https://github.com/microsoft/monaco-editor
 [Monaco Editor issue]: https://github.com/microsoft/monaco-editor/issues
 [Monaco editor 学习文档]: http://aydk.site/
-[Monarch]: ./DepthUsage.md#Monarch
-[VuePress v1.x]: https://vuepress.vuejs.org/zh/
+[Monarch]: /guide/Monarch
+[VitePress v1.x]: https://vitepress.dev/zh/
