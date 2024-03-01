@@ -7,11 +7,11 @@ jobs:
     - name: Checkout
       uses: actions/checkout@master
 
-    - name: vuepress-deploy
-      uses: jenkey2011/vuepress-deploy@master
-      env:
-        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-        TARGET_REPO: zhangyangeng/MonacoEditorDocs
-        TARGET_BRANCH: gh-pages
-        BUILD_SCRIPT: set -e && npm install && npm run docs:build
-        BUILD_DIR: docs/.vuepress/dist
+    # - name: vuepress-deploy
+    #   uses: jenkey2011/vuepress-deploy@master
+    #   env:
+    #     ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+    #     TARGET_REPO: zhangyangeng/MonacoEditorDocs
+    #     TARGET_BRANCH: gh-pages
+    #     BUILD_SCRIPT: set -e && npm install && npm run docs:build
+    #     BUILD_DIR: docs/.vuepress/dist
