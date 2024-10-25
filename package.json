@@ -20,6 +20,6 @@
     },
     "homepage": "https://github.com/zhangyangeng/MonacoEditorDocs#readme",
     "devDependencies": {
-        "vitepress": "^1.0.0-rc.44"
+        "vitepress": "^1.4.1"
     }
 }
